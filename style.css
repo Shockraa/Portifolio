@@ -1,0 +1,315 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.akame { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('akame.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+  
+}
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12vh;
+    margin-left: 24vh;
+    background-image: url('teste.svg');
+    background-size: cover;
+    background-color: #242529;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2600px;
+    width: 550px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: transparent;
+    animation-name: fade-in;
+    animation-duration: 0.9s;
+    animation-fill-mode: forwards;
+
+    @media screen and (max-width: 768px) {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+
+}
+
+@keyframes fade-in {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: #242529;
+    }
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.frame {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.frame img {
+    width: 100%;
+    height: auto;
+}
+
+.nome {
+    margin-top: 45px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b9b9b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+
+.titulo {
+    margin-top: 45px;
+    font-family: sans-serif;
+    color: #FFFFFFB0;
+    font-size: 30px;
+}
+
+.key01 {
+    overflow: hidden;
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(arrow.png);
+    background-color: #ffffffde;
+    ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.key01:hover {
+    background-color: #9e9d9d;
+}
+
+.container02 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.sobremim {
+    margin-top: 40px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #a3a3a3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+
+.sobremim2 {
+    margin-top: 90px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b9b9b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 25px;
+}
+
+.sobremim3 {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b9b9b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 25px;
+}
+
+.sobremim4 {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b9b9b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 27px;
+}
+
+.key02 {
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 80px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(arrow.png);
+    background-color: #ffffffde;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.key02:hover {
+    background-color: #9e9d9d;
+}
+.container03{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+.projeto{
+    margin-top: 25px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b3b3b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+.projeto2{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #dbdbdbb0;
+    font-size: 27px;
+}
+.link{
+    margin-top: 65px;
+    font-family: sans-serif;
+    color: #ffffffde;
+    font-size: 40px;
+}
+.link2{
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #ffffffde;
+    font-size: 40px;
+}
+.link3{
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #ffffffde;
+    font-size: 40px;
+}
+a:hover{
+    color: #9e9d9d;
+}
+.key03 {
+    overflow: hidden;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    margin-top: 60px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(arrow.png);
+    background-color: #ffffffde;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.key03:hover {
+    background-color: #9e9d9d;
+}
+.container03{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    width: 100%;
+}
+.contato{
+    margin-top: 25px;
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #ffffff, #b3b3b3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 50px;
+}
+.contato2{
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #dbdbdbb0;
+    font-size: 27px;
+    margin-bottom: 100px;
+}
+.insta{
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    margin-top: 70px;
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(insta.png);
+    background-color: #ffffffde;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.youtube{
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    background-image: url(youtube.png);
+    background-color: #ffffffde;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
