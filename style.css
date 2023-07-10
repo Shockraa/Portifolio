@@ -16,6 +16,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
+
+     @media screen and (max-width: 768px) { /* mobile */
+        display: none;
+    }
+
   
 }
 
