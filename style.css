@@ -3,7 +3,6 @@
     padding: 0px;
 }
 
-
 .akame { 
   position: fixed;
   top: 0;
@@ -16,12 +15,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: auto;
-
-     @media screen and (max-width: 768px) { /* mobile */
-        display: none;
-    }
-
-  
 }
 
 .main {
